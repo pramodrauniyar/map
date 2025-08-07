@@ -1,5 +1,5 @@
 // Initialize default Leaflet map (Web Mercator)
-const map = L.map("map").setView([45.1027974, 11.7022697], 17); // Ferrara area
+const map = L.map('map').setView([45.4642, 9.19], 17);
 
 // Add OpenStreetMap base layer (optional)
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {

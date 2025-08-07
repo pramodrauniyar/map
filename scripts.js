@@ -9,7 +9,7 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 
 // Add cadastral WMS overlay — note: no 'crs' param needed!
 const cadastralLayer = L.tileLayer.wms('https://wms.cartografia.agenziaentrate.gov.it/inspire/wms/ows01.php', {
-  layers: 'CP.CadastralParcel,fabbricati',
+  layers: 'province,CP.CadastralZoning,CP.CadastralParcel,fabbricati,strade,acque,vestizioni',
   format: 'image/png',
   transparent: true,
   version: '1.3.0',
